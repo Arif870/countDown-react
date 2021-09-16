@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+}
+.main h1 {
+  font-size: 45px;
+  font-weight: 300;
+  color: rgb(41, 40, 40);
+}
+.main:hover .edit {
+  opacity: 1;
+}
+
+.main .edit {
+  font-size: 20px;
+  color: rgb(41, 40, 40);
+  opacity: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.input {
+  padding: 10px;
+  width: 60%;
+  margin: 50px auto;
+  font-size: 30px;
+}
