@@ -19,6 +19,7 @@ class Controller extends React.Component {
       pause: true,
       lap: true,
     });
+    this.props.start();
   }
 
   pauseHandaler() {
@@ -28,8 +29,11 @@ class Controller extends React.Component {
       pause: false,
       reset: true,
     });
+    this.props.pause();
   }
-  lapHandaler() {}
+  lapHandaler() {
+    this.props.lap();
+  }
 
   resetHandaler() {
     this.setState({
@@ -38,6 +42,7 @@ class Controller extends React.Component {
       lap: false,
       reset: false,
     });
+    this.props.reset();
   }
 
   getController() {
