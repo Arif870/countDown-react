@@ -1,0 +1,17 @@
+.digit {
+  display: flex;
+  border: 1px solid green;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+}
+.digit p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0px;
+  font-size: 50px;
+  font-weight: 200;
+}
