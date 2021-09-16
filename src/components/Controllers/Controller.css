@@ -1,0 +1,12 @@
+.start {
+  margin-top: 30px;
+}
+.start button {
+  padding: 10px 20px;
+  background-color: rgb(48, 117, 38);
+  color: aliceblue;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
